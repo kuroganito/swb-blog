@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<admresource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <form name="frmAdmin">
+    <fieldset>
+          <input type="TEXT" name="font_family" label="Nombre de la Fuente:" /> 
+          <input type="TEXT" name="font_size" label="Tamaño de la Fuente:" jsvaltype="js_numbers" /> 
+          <input type="TEXT" name="font_color" label="Color de la Fuente:" /> 
+    </fieldset>
+    <fieldset>
+         <input type="SUBMIT" name="btnSave" value="GUARDAR" /> 
+         <input type="RESET" name="btnReset" value="CANCELAR" /> 
+     </fieldset>
+     </form>
+</admresource>
